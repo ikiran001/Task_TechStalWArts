@@ -7,13 +7,13 @@
   </listeners>
   <test thread-count="5" name="Interview Test(failed)">
     <classes>
-      <class name="com.TechStalWarts.testCase.TC_EmployeeTest">
+      <class name="com.TechStalWarts.testCase.TC_LogInTest">
         <methods>
+          <include name="LogInwithoutCred"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="imageUpload" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.TechStalWarts.testCase.TC_EmployeeTest -->
+      </class> <!-- com.TechStalWarts.testCase.TC_LogInTest -->
     </classes>
   </test> <!-- Interview Test(failed) -->
 </suite> <!-- Failed suite [InterviewTask_techStalWarts] -->
